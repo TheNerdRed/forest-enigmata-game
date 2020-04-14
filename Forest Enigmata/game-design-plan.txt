@@ -1,0 +1,31 @@
+An adventurer (or a car if need be) is wandering through a forest and collecting various tokens
+which will be used as collectibles. Through the way, they run into multiple characters at various
+roadblocks, who will present them with a riddle. 
+
+If they get the riddle correct, they will be sent down the correct path. If they get it wrong, 
+they are sent down a more winding path.
+
+At the end of the game, the user is presented with a point system based on how quickly they 
+completed the game, how many tokens they collected and how many riddles they got wrong  
+
+
+
+Strategy:
+
+1: Aim for a minimum viable product 
+A stage that has everything we want the project to have, without polished assets, all unique
+features, but something that IS finished and can be pushed out. May not include every feature
+you planned for the project, but has all the ones NEEDED.
+
+
+
+
+
+Have the player collecting tokens.
+
+
+Have a prototype version of the start / end menus, alongside a score counter based on time, tokens. - Sunday 3rd May
+
+Have a prototype version of the player being asked a riddle, and entering input. 
+
+Have a version of the score counter which takes riddles into consideration.
