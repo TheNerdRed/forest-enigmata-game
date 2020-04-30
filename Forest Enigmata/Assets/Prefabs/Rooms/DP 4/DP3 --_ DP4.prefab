@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 8940855416726358960}
   - component: {fileID: 7829836131955983871}
   m_Layer: 0
-  m_Name: ChooserB (1)
+  m_Name: ChooserB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,8 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e68f702d5040d24b9a031abd8a5f399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextRoom: {fileID: 3810086579505029370, guid: 5bee806addb1e694996ee847d4f834d7,
-    type: 3}
+  NextRoom: {fileID: 259906810128806224, guid: 76f4dfb5472251048bf4835abd0f68cb, type: 3}
   destroyThisRoom: {fileID: 7502264546443504917}
 --- !u!54 &7829836131955983871
 Rigidbody:
@@ -323,7 +322,7 @@ GameObject:
   - component: {fileID: 8849163501490647007}
   - component: {fileID: 7453767919378044357}
   m_Layer: 0
-  m_Name: ChooserA (1)
+  m_Name: ChooserA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,8 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e68f702d5040d24b9a031abd8a5f399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextRoom: {fileID: 4465118881927950684, guid: b8b62f769e49ba342b1e9dfeea6d04e7,
-    type: 3}
+  NextRoom: {fileID: 570905009420384901, guid: cf26302386a6546429fb564b3b9912c0, type: 3}
   destroyThisRoom: {fileID: 6792489281933124777}
 --- !u!54 &7453767919378044357
 Rigidbody:

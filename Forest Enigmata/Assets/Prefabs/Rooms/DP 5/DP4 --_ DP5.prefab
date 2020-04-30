@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e68f702d5040d24b9a031abd8a5f399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextRoom: {fileID: 4465118881927950684, guid: b8b62f769e49ba342b1e9dfeea6d04e7,
+  NextRoom: {fileID: 2952848572736297480, guid: 121e073855ad43941a8274c682ce1664,
     type: 3}
   destroyThisRoom: {fileID: 5172638101011975940}
 --- !u!54 &8124932711776049687
@@ -280,7 +280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5172638101011975940}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.002478, y: 24.485834, z: 51.870216}
+  m_LocalPosition: {x: -1.6, y: 24.485834, z: 51.870216}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6960068071148977543}
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e68f702d5040d24b9a031abd8a5f399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextRoom: {fileID: 3810086579505029370, guid: 5bee806addb1e694996ee847d4f834d7,
+  NextRoom: {fileID: 6380252745355433319, guid: 4f17c04d6a63c2444a13259fecfdc2f1,
     type: 3}
   destroyThisRoom: {fileID: 1121699083164818246}
 --- !u!54 &6515940589400333595

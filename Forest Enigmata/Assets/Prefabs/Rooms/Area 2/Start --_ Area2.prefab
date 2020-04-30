@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e68f702d5040d24b9a031abd8a5f399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextRoom: {fileID: 4465118881927950684, guid: b8b62f769e49ba342b1e9dfeea6d04e7,
+  NextRoom: {fileID: 3460584140304448198, guid: 368ccc15c1e653644add3259f02a2329,
     type: 3}
   destroyThisRoom: {fileID: 4653034147122310313}
 --- !u!54 &2428780298158134620
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e68f702d5040d24b9a031abd8a5f399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextRoom: {fileID: 3810086579505029370, guid: 5bee806addb1e694996ee847d4f834d7,
+  NextRoom: {fileID: 9101416481095789504, guid: b8889bcbe756e75459602311c6e96bd8,
     type: 3}
   destroyThisRoom: {fileID: 1996236957478593944}
 --- !u!54 &6724580531925580677
