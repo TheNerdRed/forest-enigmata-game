@@ -139,8 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e68f702d5040d24b9a031abd8a5f399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextRoom: {fileID: 3460584140304448198, guid: 368ccc15c1e653644add3259f02a2329,
-    type: 3}
+  NextRoom: {fileID: 728354272863073860, guid: 23b9f3d005602c645ad5969ebbe930fc, type: 3}
   destroyThisRoom: {fileID: 4653034147122310313}
 --- !u!54 &2428780298158134620
 Rigidbody:

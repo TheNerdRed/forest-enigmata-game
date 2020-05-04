@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class TokenCollection : MonoBehaviour
 {
+    // References the Game Manager class, so methods from within can be used.
+    public GameManager gameManager;
+
     public GameObject player;
+
+    public int minimumScore = 3;
+    public int maximumScore = 9;
+    public int randomScore;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
         player = GameObject.Find("Player");
     }
 
@@ -22,7 +30,9 @@ public class TokenCollection : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player has collided with token!");
+            randomScore = Random.Range(minimumScore, maximumScore);
+
+            gameManager.updateScore(randomScore);
             Destroy(gameObject);
         }
     }
