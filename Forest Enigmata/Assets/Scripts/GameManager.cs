@@ -6,6 +6,13 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public PlayerController playerController;
+
+    public GameObject finalScreen;
+    public GameObject startScreen;
+    public GameObject player;
+
+    public TextMeshProUGUI finalScoreText;
     public TextMeshProUGUI scoreText;
 
     public int tokenScore;
@@ -13,8 +20,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
+
         // Initialises the score to 0 and resets the text counter.
-        tokenScore = 0;
+        finalScoreText.text = "Your final score is : ";
+
+        // Initialises the score to 0 and resets the text counter.
         scoreText.text = "Score : " + tokenScore;
     }
 
@@ -27,11 +38,11 @@ public class GameManager : MonoBehaviour
             restartGame();
         }
     }
-     
-    // When this method is called, it restarts the game and loads from scratch.
-    void restartGame()
+
+    public void startGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        startScreen.SetActive(false);
+        player.SetActive(true);
     }
 
     // When this method is called and passed a parameter of the score to update, it updates by that amount.
@@ -39,5 +50,20 @@ public class GameManager : MonoBehaviour
     {
         tokenScore += scoreToAdd;
         scoreText.text = "Score : " + tokenScore;
+    }
+
+    public void endGame()
+    {
+        playerController.stopMoving();
+
+        finalScoreText.text = finalScoreText.text + tokenScore;
+
+        finalScreen.SetActive(true);
+    }
+
+    // When this method is called, it restarts the game and loads from scratch.
+    public void restartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

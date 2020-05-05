@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e68f702d5040d24b9a031abd8a5f399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextRoom: {fileID: 1012621731729011901, guid: a988ad034c274c04e96b018c612dd8e9,
+  NextRoom: {fileID: 3027347534150379352, guid: a988ad034c274c04e96b018c612dd8e9,
     type: 3}
   destroyThisRoom: {fileID: 6621015785921517035}
 --- !u!54 &4613576569291579542
@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 5302966565912253703}
   m_Layer: 0
   m_Name: DP8 --_ Area5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

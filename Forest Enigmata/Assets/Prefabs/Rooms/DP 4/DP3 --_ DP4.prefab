@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 3738962154748051694}
   m_Layer: 0
   m_Name: DP3 --_ DP4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

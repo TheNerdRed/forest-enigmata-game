@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7040789790124943581}
   m_Layer: 0
   m_Name: DP1-DP2 --_ Area2 --- 1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
