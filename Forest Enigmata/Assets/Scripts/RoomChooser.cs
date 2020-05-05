@@ -11,7 +11,7 @@ public class RoomChooser : MonoBehaviour
 
     [SerializeField]
     private GameObject destroyThisRoom;
- 
+    
 
     private void OnTriggerEnter(Collider other)
     {

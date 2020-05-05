@@ -9,8 +9,6 @@ public class PlayerController : MonoBehaviour
     public float verticalInput;
     public float horizontalInput;
 
-    public bool canMove = true;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -24,10 +22,7 @@ public class PlayerController : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
         horizontalInput = Input.GetAxis("Horizontal");
 
-        while(canMove)
-        {
-            transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
-            transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
-        }
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
+        transform.Translate(Vector3.right * Time.deltaTime * speed  * horizontalInput);
     }
 }
